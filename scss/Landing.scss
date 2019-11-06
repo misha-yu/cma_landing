@@ -250,7 +250,18 @@ a:hover {
 }
 
 .property_title {
-    padding-top: 125px;
+    @media (min-width: 1440px) {
+        padding-top: 125px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 125px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 25px;
+    }
+
 }
 
 .no_padding_no_margin {}
@@ -267,13 +278,172 @@ a:hover {
     @media (min-width: 992px) and (max-width: 1439px) {
         padding-top: 66px;
         padding-top: 20px;
-        max-width: 260px;
+        max-width: 340px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
         padding-top: 26px;
         padding-top: 20px;
-        max-width: 260px !important;
+        max-width: 280px !important;
     }
 
+}
+
+.coming_soon_paddings {
+    @media (min-width: 1440px) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 0px
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 0px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 0px;
+    }
+}
+
+
+
+.how_it_section {
+
+    @media (min-width: 1440px) {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+}
+
+.authorship_img {
+
+    @media (min-width: 1440px) {
+        padding-top: 66px;
+        max-height: 400px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 66px;
+        max-height: 400px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 26px;
+        max-height: 300px;
+    }
+
+
+}
+
+.authorship_soon_paddings {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    @media (min-width: 1440px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 90px;
+        padding-bottom: 0px;
+    }
+}
+.authorship_paddings_inner {
+    padding-bottom: 60px; 
+    padding-top: 40px;
+    @media (min-width: 1440px) {}
+
+    @media (min-width: 992px) and (max-width: 1439px) {}
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-bottom: 60px; 
+        padding-top: 0px;
+    }
+}
+
+.authorship_title_padding {
+     @media (min-width: 1440px) {
+        padding-top: 70px; 
+         padding-bottom: 10px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 70px; 
+         padding-bottom: 10px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top:10px; 
+         padding-bottom: 10px;
+    }
+}
+
+.property_container {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-bottom: 40px;
+    }
+}
+
+.art_value_paddings {
+     
+    padding-top: 40px;
+    @media (min-width: 1440px) {
+        padding-bottom: 80px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-bottom: 80px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-bottom: 50px;
+    }
+}
+
+.art_expertise_container {
+    
+    @media (min-width: 1440px) {
+        padding-top: 70px; 
+    padding-bottom: 120px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 70px; 
+    padding-bottom: 120px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 0px; 
+    padding-bottom: 70px;
+    }
 }

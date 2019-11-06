@@ -226,29 +226,195 @@ a:hover {
   .comimg_soon_img {
     padding-top: 26px; } }
 
-/* line 252, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
-.property_title {
-  padding-top: 125px; }
+@media (min-width: 1440px) {
+  /* line 252, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .property_title {
+    padding-top: 125px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 252, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .property_title {
+    padding-top: 125px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 252, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .property_title {
+    padding-top: 25px; } }
 
 @media (min-width: 1440px) {
-  /* line 258, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 269, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
   .how_it_img {
     padding-top: 66px;
     padding-top: 20px;
     max-width: 357px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 258, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 269, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
   .how_it_img {
     padding-top: 66px;
     padding-top: 20px;
-    max-width: 260px; } }
+    max-width: 340px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 258, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 269, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
   .how_it_img {
     padding-top: 26px;
     padding-top: 20px;
-    max-width: 260px !important; } }
+    max-width: 280px !important; } }
+
+@media (min-width: 1440px) {
+  /* line 292, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .coming_soon_paddings {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 0px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 292, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .coming_soon_paddings {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 0px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 292, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .coming_soon_paddings {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 0px; } }
+
+@media (min-width: 1440px) {
+  /* line 317, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .how_it_section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 0px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 317, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .how_it_section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 0px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 317, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .how_it_section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 0px; } }
+
+@media (min-width: 1440px) {
+  /* line 339, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_img {
+    padding-top: 66px;
+    max-height: 400px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 339, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_img {
+    padding-top: 66px;
+    max-height: 400px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 339, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_img {
+    padding-top: 26px;
+    max-height: 300px; } }
+
+/* line 359, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+.authorship_soon_paddings {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1440px) {
+    /* line 359, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .authorship_soon_paddings {
+      padding-top: 0px;
+      padding-bottom: 0px; } }
+  @media (min-width: 992px) and (max-width: 1439px) {
+    /* line 359, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .authorship_soon_paddings {
+      padding-top: 0px;
+      padding-bottom: 0px; } }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 359, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .authorship_soon_paddings {
+      padding-top: 90px;
+      padding-bottom: 0px; } }
+
+/* line 379, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+.authorship_paddings_inner {
+  padding-bottom: 60px;
+  padding-top: 40px; }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 379, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .authorship_paddings_inner {
+      padding-bottom: 60px;
+      padding-top: 0px; } }
+
+@media (min-width: 1440px) {
+  /* line 392, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_title_padding {
+    padding-top: 70px;
+    padding-bottom: 10px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 392, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_title_padding {
+    padding-top: 70px;
+    padding-bottom: 10px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 392, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .authorship_title_padding {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+
+/* line 409, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+.property_container {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 409, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .property_container {
+      padding-bottom: 40px; } }
+
+/* line 417, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+.art_value_paddings {
+  padding-top: 40px; }
+  @media (min-width: 1440px) {
+    /* line 417, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .art_value_paddings {
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) and (max-width: 1439px) {
+    /* line 417, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .art_value_paddings {
+      padding-bottom: 80px; } }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 417, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    .art_value_paddings {
+      padding-bottom: 50px; } }
+
+@media (min-width: 1440px) {
+  /* line 433, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .art_expertise_container {
+    padding-top: 70px;
+    padding-bottom: 120px; } }
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  /* line 433, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .art_expertise_container {
+    padding-top: 70px;
+    padding-bottom: 120px; } }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 433, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  .art_expertise_container {
+    padding-top: 0px;
+    padding-bottom: 70px; } }
 
 /*# sourceMappingURL=Landing.css.map */
