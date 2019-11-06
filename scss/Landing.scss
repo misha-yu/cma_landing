@@ -35,7 +35,8 @@ a:hover {
 }
 
 .white_18 {
-    font-family: OpenSans-Regular;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     color: $white;
     letter-spacing: 0;
@@ -50,7 +51,8 @@ a:hover {
 
 .h1 {
     padding-top: 69px;
-    font-family: OpenSans-Bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 38px;
     color: $grey-2;
     letter-spacing: 0;
