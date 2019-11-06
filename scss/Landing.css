@@ -419,11 +419,11 @@ a:hover {
 
 /* line 452, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
 .fb_link {
-  color: #7678ED;
+  color: #F0A202;
   font-weight: 500;
   font-style: italic;
   text-decoration: underline; }
-  /* line 457, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 458, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
   .fb_link:hover {
     color: #7678ED;
     text-decoration: underline; }
