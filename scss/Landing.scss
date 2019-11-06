@@ -145,6 +145,11 @@ a:hover {
     color: $white;
     letter-spacing: 0;
     line-height: 30px;
+
+    @media (min-width: 320px) and(max-width: 992px) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .action_title {
@@ -235,22 +240,40 @@ a:hover {
         padding-top: 66px;
     }
 
-    @media (min-width: 1200px) and (max-width: 1439px) {
+    @media (min-width: 992px) and (max-width: 1439px) {
         padding-top: 66px;
     }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
-        padding-top: 66px;
-    }
-
-    @media (min-width: 768px) and (max-width: 991px) {
-        padding-top: 26px;
-    }
-
-    @media (min-width: 320px) and(max-width: 768px) {
+    @media (min-width: 320px) and(max-width: 991px) {
         padding-top: 26px;
     }
 }
+
 .property_title {
     padding-top: 125px;
+}
+
+.no_padding_no_margin {}
+
+.how_it_img {
+
+
+    @media (min-width: 1440px) {
+        padding-top: 66px;
+        padding-top: 20px;
+        max-width: 357px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 66px;
+        padding-top: 20px;
+        max-width: 307px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 26px;
+        padding-top: 20px;
+        max-width: 260px !important;
+    }
+
 }
