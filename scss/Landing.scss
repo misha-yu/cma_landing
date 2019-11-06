@@ -6,6 +6,7 @@ $orange-2: #F0A202;
 $red: #AA4465;
 $green: #8BFFC6;
 $white: #CACACA;
+$blue: #7678ED;
 
 a {
     color: inherit;
@@ -433,17 +434,28 @@ a:hover {
 .art_expertise_container {
     
     @media (min-width: 1440px) {
-        padding-top: 70px; 
+        padding-top: 60px; 
     padding-bottom: 120px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
-        padding-top: 70px; 
+        padding-top: 60px; 
     padding-bottom: 120px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
         padding-top: 0px; 
     padding-bottom: 70px;
+    }
+}
+
+.fb_link {
+    color: $blue;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    &:hover{
+       color: $blue; 
+        text-decoration: underline;
     }
 }
