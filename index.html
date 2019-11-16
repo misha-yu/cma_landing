@@ -31,8 +31,31 @@
 
         gtag('config', 'UA-151638705-1');
     </script>
-    
-   
+
+    <!-- GA Events tracking -->
+    <script type="text/javascript">
+        //GA Event Tracker Script. Licensed under MIT. Free for any use by all. Written by Paul Seal from codeshare.co.uk
+
+        // Get the category, action and label from the element and send it to GA. The action is optional, because mostly it will be a click event.
+        var trackClickEvent = function() {
+            var eventCategory = this.getAttribute("data-event-category");
+            var eventAction = this.getAttribute("data-event-action");
+            var eventLabel = this.getAttribute("data-event-label");
+            var eventValue = this.getAttribute("data-event-value");
+            ga('send', 'event', eventCategory, (eventAction != undefined && eventAction != '' ? eventAction : 'click'), eventLabel, eventValue);
+        };
+
+        // Find all of the elements on the page which have the class 'ga-event'
+        var elementsToTrack = document.getElementsByClassName("ga-event");
+
+        // Add an event listener to each of the elements you found
+        var elementsToTrackLength = elementsToTrack.length;
+        for (var i = 0; i < elementsToTrackLength; i++) {
+            elementsToTrack[i].addEventListener('click', trackClickEvent, false);
+        }
+    </script>
+
+
 
 
 
@@ -76,7 +99,7 @@
 
                             <div style="width: 100%; text-align: left; padding-top: 14px;">
 
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYTjblTGa_0cjmXXF9JJSmeTikLWrzUyflynXEAtYfbZDJvA/viewform" target="_blank">
+                                <a class="ga-event" data-event-category="CTA Button" data-event-label="Hero CTA click" href="https://docs.google.com/forms/d/e/1FAIpQLSfYTjblTGa_0cjmXXF9JJSmeTikLWrzUyflynXEAtYfbZDJvA/viewform" target="_blank">
                                     <div class="Landing_hero_btn" style="margin: auto; margin-bottom:22px; width: 296px; ">
                                         <div class="Landing_hero_btn_in " style="position: relative;">
                                             Take a short survey
@@ -151,7 +174,7 @@
             <div class="row how_it_section" style="">
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                    <div class="section_title " style="padding-top: 20px;">How it works?</div>
+                    <div class="section_title " style="padding-top: 80px;">How it works?</div>
 
                     <div class="section_txt d-none d-lg-block" style="padding-top: 24px;">
                         Blockchain technology is about creating unique digital objects. They never repeat and have their
@@ -163,7 +186,7 @@
 
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" style="text-align: center;">
-                    <img class="side_img how_it_img" style="" src="img_landing/how_it_works.png" alt="">
+                    <img class="side_img how_it_img" style="" src="img_landing/how_it_works_2.png" alt="">
                 </div>
 
                 <div class="col-12 d-lg-none d-md-block " style="padding-top: 24px;">
