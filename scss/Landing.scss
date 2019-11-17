@@ -66,6 +66,14 @@ a:hover {
     }
 }
 
+.h1_ru{
+    font-size: 34px;
+    padding-top: 69px;
+    @media (min-width: 320px) and(max-width: 768px) {
+         padding-top: 22px;
+    }
+}
+
 .hero_txt {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -198,11 +206,33 @@ a:hover {
         bottom: -65px;
     }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media (min-width: 768px) and (max-width: 1199px) {
         bottom: -103px;
     }
 
-    @media (min-width: 768px) and (max-width: 991px) {
+    @media (min-width: 320px) and(max-width: 768px) {
+        height: 300px;
+        bottom: -26px;
+    }
+}
+
+
+.hero_img_ru {
+    height: 429px;
+    width: auto;
+    //background-color: yellow;
+
+    position: relative;
+
+    @media (min-width: 1440px) {
+        bottom: -65px;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1439px) {
+        bottom: -65px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
         bottom: -103px;
     }
 
@@ -458,5 +488,20 @@ a:hover {
     &:hover{
        color: $blue;
        text-decoration: underline;
+    }
+}
+
+.value_img_ru {
+   
+    @media (min-width: 1440px) {
+        margin-top: 90px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        margin-top: 90px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 26px;
     }
 }
