@@ -474,6 +474,7 @@ a:hover {
 /* line 509, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
 .footer_img {
   padding-left: 16px;
-  padding-right: 16px; }
+  padding-right: 16px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=Landing.css.map */
