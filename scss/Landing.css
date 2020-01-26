@@ -1,31 +1,31 @@
-/* line 11, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 11, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 a {
   color: inherit;
   text-decoration: none; }
 
-/* line 16, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 16, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 a:hover {
   color: inherit;
   text-decoration: none; }
 
-/* line 21, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 21, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .land_header {
   background-color: #272727;
   height: 80px; }
 
-/* line 26, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 26, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .bg_grey-1 {
   background-color: #191919; }
 
-/* line 30, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 30, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .bg_grey-2 {
   background-color: #272727; }
 
-/* line 34, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 34, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .bg_green {
-  background-color: #8BFFC6; }
+  background-color: #B9FFDD; }
 
-/* line 38, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 38, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .white_18 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -34,11 +34,11 @@ a:hover {
   letter-spacing: 0;
   line-height: 29px; }
 
-/* line 48, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 48, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .on_hover_green:hover {
-  color: #8BFFC6; }
+  color: #B9FFDD; }
 
-/* line 53, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 53, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .h1 {
   padding-top: 69px;
   font-family: 'Open Sans', sans-serif;
@@ -47,22 +47,22 @@ a:hover {
   color: #272727;
   letter-spacing: 0; }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 53, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 53, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .h1 {
       padding-top: 22px;
       text-align: center;
       font-size: 32px; } }
 
-/* line 69, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 69, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .h1_ru {
   font-size: 34px;
   padding-top: 69px; }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 69, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 69, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .h1_ru {
       padding-top: 22px; } }
 
-/* line 77, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 77, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .hero_txt {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -71,14 +71,14 @@ a:hover {
   letter-spacing: 0;
   line-height: 30px; }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 77, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 77, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_txt {
       color: #CACACA;
       font-family: OpenSans-Light;
       padding-left: 20px;
       padding-right: 20px; } }
 
-/* line 94, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 94, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .additional_sign {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -87,22 +87,22 @@ a:hover {
   letter-spacing: 0;
   line-height: 25px; }
 
-/* line 103, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 103, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .Landing_hero_btn {
   background-color: #F0A202;
   border-radius: 11px;
   height: 39px;
   cursor: pointer;
   width: 230px; }
-  /* line 110, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 110, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .Landing_hero_btn:hover {
     transform: scale(1.04);
     transition: transform .3s; }
-    /* line 115, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 115, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .Landing_hero_btn:hover .Landing_hero_btn_in {
       width: 100%; }
 
-/* line 122, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 122, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .Landing_hero_btn_in {
   border-radius: 11px;
   height: 36px;
@@ -115,7 +115,7 @@ a:hover {
   letter-spacing: 0;
   text-align: center; }
 
-/* line 136, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 136, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .section_title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -123,12 +123,13 @@ a:hover {
   color: #F0A202;
   text-align-last: left; }
   @media (min-width: 320px) and (max-width: 992px) {
-    /* line 136, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 136, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .section_title {
       text-align-last: center;
-      padding-top: 20px; } }
+      padding-top: 20px;
+      padding-bottom: 20px; } }
 
-/* line 149, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 150, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .section_txt {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -137,12 +138,13 @@ a:hover {
   letter-spacing: 0;
   line-height: 30px; }
   @media (min-width: 320px) and (max-width: 992px) {
-    /* line 149, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 150, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .section_txt {
       margin-left: 10px;
-      margin-right: 10px; } }
+      margin-right: 10px;
+      padding-top: 20px; } }
 
-/* line 164, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 166, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .action_title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -152,7 +154,7 @@ a:hover {
   padding-top: 77px;
   padding-bottom: 15px; }
 
-/* line 174, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 176, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .action_red_txt {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -162,7 +164,7 @@ a:hover {
   text-align: center;
   padding-bottom: 30px; }
 
-/* line 184, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 186, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .action_grey_txt {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -171,68 +173,68 @@ a:hover {
   letter-spacing: 0;
   text-align: center; }
 
-/* line 194, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 196, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .hero_img {
   height: 429px;
   width: auto;
   position: relative; }
   @media (min-width: 1440px) {
-    /* line 194, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 196, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img {
       bottom: -65px; } }
   @media (min-width: 1200px) and (max-width: 1439px) {
-    /* line 194, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 196, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img {
       bottom: -65px; } }
   @media (min-width: 768px) and (max-width: 1199px) {
-    /* line 194, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 196, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img {
       bottom: -103px; } }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 194, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 196, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img {
       height: 300px;
       bottom: -26px; } }
 
-/* line 220, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 223, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .hero_img_ru {
   height: 429px;
   width: auto;
   position: relative; }
   @media (min-width: 1440px) {
-    /* line 220, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 223, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img_ru {
       bottom: -65px; } }
   @media (min-width: 1200px) and (max-width: 1439px) {
-    /* line 220, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 223, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img_ru {
       bottom: -65px; } }
   @media (min-width: 768px) and (max-width: 1199px) {
-    /* line 220, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 223, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img_ru {
-      bottom: -103px; } }
+      bottom: -129px; } }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 220, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 223, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_img_ru {
       height: 300px;
       bottom: -26px; } }
 
-/* line 245, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 248, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .hero_image_col {
   height: 100px;
   height: auto; }
   @media (min-width: 320px) and (max-width: 768px) {
-    /* line 245, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 248, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .hero_image_col {
       height: 280px; } }
 
-/* line 255, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 258, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .side_img {
   width: calc(100% - 0px);
   height: auto;
   position: relative; }
 
-/* line 261, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 264, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .side_img_how_it_works {
   width: calc(60% - 0px);
   height: auto;
@@ -240,58 +242,58 @@ a:hover {
   max-width: 357px; }
 
 @media (min-width: 1440px) {
-  /* line 268, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 271, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .comimg_soon_img {
     padding-top: 66px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 268, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 271, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .comimg_soon_img {
     padding-top: 66px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 268, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 271, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .comimg_soon_img {
     padding-top: 26px; } }
 
 @media (min-width: 1440px) {
-  /* line 283, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 286, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .property_title {
-    padding-top: 125px; } }
+    padding-top: 105px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 283, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 286, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .property_title {
     padding-top: 125px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 283, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 286, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .property_title {
     padding-top: 25px; } }
 
 @media (min-width: 1440px) {
-  /* line 300, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 303, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_img {
     padding-top: 66px;
     padding-top: 20px;
-    max-width: 399px; } }
+    max-width: 331px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 300, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 303, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_img {
     padding-top: 66px;
     padding-top: 20px;
-    max-width: 340px; } }
+    max-width: 331px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 300, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 303, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_img {
     padding-top: 26px;
     padding-top: 20px;
     max-width: 280px !important; } }
 
 @media (min-width: 1440px) {
-  /* line 323, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 326, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .coming_soon_paddings {
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,7 +301,7 @@ a:hover {
     padding-top: 0px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 323, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 326, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .coming_soon_paddings {
     background-repeat: no-repeat;
     background-size: cover;
@@ -307,7 +309,7 @@ a:hover {
     padding-top: 0px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 323, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 326, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .coming_soon_paddings {
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,166 +317,207 @@ a:hover {
     padding-top: 0px; } }
 
 @media (min-width: 1440px) {
-  /* line 348, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 351, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 0px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 348, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 351, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 0px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 348, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 351, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .how_it_section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 0px; } }
 
 @media (min-width: 1440px) {
-  /* line 370, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 373, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_img {
     padding-top: 66px;
-    max-height: 400px; } }
+    max-width: 317px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 370, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 373, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_img {
     padding-top: 66px;
-    max-height: 400px; } }
+    max-width: 317px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 370, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 373, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_img {
     padding-top: 26px;
-    max-height: 300px; } }
+    max-width: 317px; } }
 
-/* line 390, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 393, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .authorship_soon_paddings {
   background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden; }
+  background-size: cover; }
   @media (min-width: 1440px) {
-    /* line 390, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 393, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .authorship_soon_paddings {
-      padding-top: 0px;
-      padding-bottom: 0px; } }
+      padding-top: 70px;
+      padding-bottom: 90px; } }
   @media (min-width: 992px) and (max-width: 1439px) {
-    /* line 390, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 393, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .authorship_soon_paddings {
+      padding-top: 70px;
+      padding-bottom: 90px; } }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 393, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .authorship_soon_paddings {
       padding-top: 0px;
-      padding-bottom: 0px; } }
-  @media (min-width: 320px) and (max-width: 991px) {
-    /* line 390, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
-    .authorship_soon_paddings {
-      padding-top: 90px;
       padding-bottom: 0px; } }
 
-/* line 410, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 413, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .authorship_paddings_inner {
   padding-bottom: 60px;
   padding-top: 40px; }
   @media (min-width: 320px) and (max-width: 991px) {
-    /* line 410, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 413, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .authorship_paddings_inner {
       padding-bottom: 60px;
       padding-top: 0px; } }
 
 @media (min-width: 1440px) {
-  /* line 423, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 426, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_title_padding {
     padding-top: 70px;
     padding-bottom: 10px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 423, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 426, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_title_padding {
     padding-top: 70px;
     padding-bottom: 10px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 423, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 426, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .authorship_title_padding {
     padding-top: 10px;
     padding-bottom: 10px; } }
 
-/* line 440, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 443, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .property_container {
   padding-top: 0px;
   padding-bottom: 0px; }
   @media (min-width: 320px) and (max-width: 991px) {
-    /* line 440, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 443, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .property_container {
       padding-bottom: 40px; } }
 
-/* line 448, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 451, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .art_value_paddings {
   padding-top: 40px; }
   @media (min-width: 1440px) {
-    /* line 448, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 451, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .art_value_paddings {
       padding-bottom: 80px; } }
   @media (min-width: 992px) and (max-width: 1439px) {
-    /* line 448, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 451, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .art_value_paddings {
       padding-bottom: 80px; } }
   @media (min-width: 320px) and (max-width: 991px) {
-    /* line 448, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+    /* line 451, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
     .art_value_paddings {
       padding-bottom: 50px; } }
 
 @media (min-width: 1440px) {
-  /* line 464, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 467, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .art_expertise_container {
     padding-top: 60px;
-    padding-bottom: 120px; } }
+    padding-bottom: 0px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 464, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 467, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .art_expertise_container {
     padding-top: 60px;
     padding-bottom: 120px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 464, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 467, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .art_expertise_container {
     padding-top: 0px;
     padding-bottom: 70px; } }
 
-/* line 482, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 485, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .fb_link {
   color: #F0A202;
   font-weight: 500;
   font-style: italic;
   text-decoration: underline; }
-  /* line 488, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 491, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .fb_link:hover {
     color: #7678ED;
     text-decoration: underline; }
 
 @media (min-width: 1440px) {
-  /* line 494, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 497, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .value_img_ru {
     margin-top: 90px; } }
 
 @media (min-width: 992px) and (max-width: 1439px) {
-  /* line 494, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 497, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .value_img_ru {
     margin-top: 90px; } }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* line 494, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+  /* line 497, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
   .value_img_ru {
     padding-top: 26px; } }
 
-/* line 509, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 512, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
 .footer_img {
   padding-left: 16px;
   padding-right: 16px;
   cursor: pointer; }
+
+/* line 518, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+.how_it_works_paddings {
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 1440px) {
+    /* line 518, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .how_it_works_paddings {
+      padding-top: 70px;
+      padding-bottom: 90px; } }
+  @media (min-width: 992px) and (max-width: 1439px) {
+    /* line 518, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .how_it_works_paddings {
+      padding-top: 20px;
+      padding-bottom: 90px; } }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 518, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .how_it_works_paddings {
+      padding-top: 30px;
+      padding-bottom: 90px; } }
+
+/* line 539, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+.property_paddings {
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 1440px) {
+    /* line 539, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .property_paddings {
+      padding-top: 70px;
+      padding-bottom: 90px; } }
+  @media (min-width: 992px) and (max-width: 1439px) {
+    /* line 539, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .property_paddings {
+      padding-top: 70px;
+      padding-bottom: 90px;
+      background-color: #242424; } }
+  @media (min-width: 320px) and (max-width: 991px) {
+    /* line 539, /Users/mikhailyurchenkov/GoogleDriveLoomx/Misha_W_2019/CryptoMeme.art/cma_landing/cma_landing_2/scss/Landing.scss */
+    .property_paddings {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-color: #242424; } }
 
 /*# sourceMappingURL=Landing.css.map */

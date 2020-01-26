@@ -4,7 +4,7 @@ $grey-3: #848080;
 $orange-1: #F7C358;
 $orange-2: #F0A202;
 $red: #AA4465;
-$green: #8BFFC6;
+$green: #B9FFDD;
 $white: #CACACA;
 $blue: #7678ED;
 
@@ -143,6 +143,7 @@ a:hover {
     @media (min-width: 320px) and(max-width: 992px) {
         text-align-last: center;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -158,6 +159,7 @@ a:hover {
     @media (min-width: 320px) and(max-width: 992px) {
         margin-left: 10px;
         margin-right: 10px;
+        padding-top: 20px;
     }
 }
 
@@ -217,6 +219,7 @@ a:hover {
 }
 
 
+
 .hero_img_ru {
     height: 429px;
     width: auto;
@@ -233,7 +236,7 @@ a:hover {
     }
 
     @media (min-width: 768px) and (max-width: 1199px) {
-        bottom: -103px;
+        bottom: -129px;
     }
 
     @media (min-width: 320px) and(max-width: 768px) {
@@ -282,7 +285,7 @@ a:hover {
 
 .property_title {
     @media (min-width: 1440px) {
-        padding-top: 125px;
+        padding-top: 105px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
@@ -303,13 +306,13 @@ a:hover {
     @media (min-width: 1440px) {
         padding-top: 66px;
         padding-top: 20px;
-        max-width: 399px;
+        max-width: 331px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
         padding-top: 66px;
         padding-top: 20px;
-        max-width: 340px;
+        max-width: 331px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
@@ -371,17 +374,17 @@ a:hover {
 
     @media (min-width: 1440px) {
         padding-top: 66px;
-        max-height: 400px;
+        max-width: 317px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
         padding-top: 66px;
-        max-height: 400px;
+        max-width: 317px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
         padding-top: 26px;
-        max-height: 300px;
+        max-width: 317px;
     }
 
 
@@ -390,20 +393,20 @@ a:hover {
 .authorship_soon_paddings {
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    //overflow: hidden;
 
     @media (min-width: 1440px) {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 70px;
+        padding-bottom: 90px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 70px;
+        padding-bottom: 90px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
-        padding-top: 90px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 }
@@ -465,7 +468,7 @@ a:hover {
     
     @media (min-width: 1440px) {
         padding-top: 60px; 
-    padding-bottom: 120px;
+    padding-bottom: 0px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
@@ -510,4 +513,49 @@ a:hover {
     padding-left: 16px;
     padding-right: 16px;
     cursor: pointer;
+}
+
+.how_it_works_paddings {
+       background-repeat: no-repeat;
+    background-size: cover;
+    //overflow: hidden;
+
+    @media (min-width: 1440px) {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 20px;
+        padding-bottom: 90px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+}
+
+.property_paddings {
+        background-repeat: no-repeat;
+    background-size: cover;
+    //overflow: hidden;
+    
+
+    @media (min-width: 1440px) {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        padding-top: 70px;
+        padding-bottom: 90px;
+        background-color: #242424;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #242424;
+    }
 }
