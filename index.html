@@ -52,9 +52,9 @@
             <div class="row ">
                 <div class="col " style="height: 80px; color: white">
                     <img src="img_landing/logo_and_sign.svg" style="left: 25px; padding-top: 23px;" alt="logo">
-                    
+
                     <a href="CryptoMemeArt_WhitePaper.pdf" target="_blank" class="white_18 on_hover_green d-none d-md-inline d-lg-inline d-xlg-inline" style="position: absolute; display: inline-block; left: 320px; padding-top: 33px;">White Paper</a>
-                    
+
                     <a href="ru.html" class="white_18 on_hover_green" style="position: absolute; display: inline-block; right: 20px; padding-top: 30px;">Ru</a>
                 </div>
             </div>
@@ -96,8 +96,46 @@
                             </div>
                         </div>
                     </div>
+                    <!-- <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12 hero_image_col" style="">
+                        <img class="hero_img" src="img_landing/Hero_image.png" alt="">
+                        </div> -->
                     <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12 hero_image_col" style="">
-                        <img class="hero_img" src="img_landing/Hero_image.png" alt=""></div>
+                        <div class="hero_img" alt="" style="">
+                            <img class="" style="height: 100%; width: auto;" src="img_landing/Hero_image.png" alt="">
+                            <div type="button" class="video_button_cont" data-toggle="modal" data-target="#exampleModal">
+                                <div class="video_btn">
+                                    <img class="play_triangle" src="img_landing/play_Triangle.svg" alt="">
+                                </div>
+                                <div class="video_btn_sgn">Play Video</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MODAL +++ -->
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content" style="width: 592px; background-color: black">
+                                <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">What is CryptoMeme.art</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                                <div class="modal-body">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cRSIQovbe3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MODAL --- -->
+                    <script type="text/javascript">
+                        $("#exampleModal").on('hidden.bs.modal', function(e) {
+                            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
+                        });
+                    </script>
+
                 </div>
             </div>
         </div>
@@ -207,7 +245,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 authorship_paddings">
                     <div class="section_title d-none d-lg-block" style="padding-top: 112px; padding-bottom: 24px;">Authorship and uniqueness
                     </div>
-                    <div class="section_txt" >
+                    <div class="section_txt">
                         CryptoMeme saves your name as an author in Blockchain. Even it was shared in the social network,
                         your authorship will be absolutely protected.
                     </div>
@@ -260,7 +298,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 " style="text-align: center;">
                     <img class="comimg_soon_img" style="padding-top: 20px; max-height: 467px; width: auto;" src="img_landing/property.svg" alt="">
                 </div>
-                
+
 
                 <div class="col-12 d-lg-none d-md-block " style="padding-top: 24px;">
                     <div class="section_txt">
@@ -302,7 +340,7 @@
 
     <!-- Art Value +++ -->
 
-    <div class="bg_grey-2 left_back" >
+    <div class="bg_grey-2 left_back">
         <div class="container no_padding_no_margin">
             <div class="row art_value_paddings" style="height:auto; ">
 
@@ -451,7 +489,7 @@
                 </div>
             </div>
         </div>
-    <!-- Footer --- -->
+        <!-- Footer --- -->
 
 
 
