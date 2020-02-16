@@ -613,7 +613,7 @@ a:hover {
         -ms-transition: background-color 200ms linear;
         transition: background-color 200ms linear;
         //background-color: #FF0000;
-        //opacity: 0.8;
+        opacity: 0.8;
     }
 }
 .play_triangle {
@@ -627,8 +627,9 @@ a:hover {
     width: 100%;
     top: 66px;
     font-family: OpenSans-Italic;
+    font-weight: 600;
     font-size: 14px;
-    color: $white;
+    color: #FFFFFF;
     letter-spacing: 0;
     text-align: center
 }

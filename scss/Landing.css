@@ -564,7 +564,8 @@ a:hover {
     background-color: #FF0000;
     -webkit-transition: background-color 200ms linear;
     -ms-transition: background-color 200ms linear;
-    transition: background-color 200ms linear; }
+    transition: background-color 200ms linear;
+    opacity: 0.8; }
 
 /* line 619, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
 .play_triangle {
@@ -578,12 +579,13 @@ a:hover {
   width: 100%;
   top: 66px;
   font-family: OpenSans-Italic;
+  font-weight: 600;
   font-size: 14px;
-  color: #CACACA;
+  color: #FFFFFF;
   letter-spacing: 0;
   text-align: center; }
 
-/* line 635, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
+/* line 636, /Users/mikhailyurchenkov/Documents/GitHub/cma_landing/scss/Landing.scss */
 .button {
   background: none; }
 
