@@ -7,6 +7,7 @@ $red: #AA4465;
 $green: #B9FFDD;
 $white: #CACACA;
 $blue: #7678ED;
+$blue-2: #5C5ECC;
 
 a {
     color: inherit;
@@ -168,7 +169,7 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 30px;
-    color: $red;
+    color: $grey-1;
     text-align: center;
     padding-top: 77px;
     padding-bottom: 15px;
@@ -286,7 +287,7 @@ a:hover {
 
 .property_title {
     @media (min-width: 1440px) {
-        padding-top: 105px;
+        padding-top: 95px;
     }
 
     @media (min-width: 992px) and (max-width: 1439px) {
@@ -302,8 +303,7 @@ a:hover {
 .no_padding_no_margin {}
 
 .how_it_img {
-
-
+        margin-left: calc(50% - 165px);
     @media (min-width: 1440px) {
         padding-top: 66px;
         padding-top: 20px;
@@ -320,6 +320,7 @@ a:hover {
         padding-top: 26px;
         padding-top: 20px;
         max-width: 280px !important;
+         margin-left: calc(50% - 140px);
     }
 
 }
@@ -359,13 +360,13 @@ a:hover {
 
     @media (min-width: 992px) and (max-width: 1439px) {
         height: auto;
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 
     @media (min-width: 320px) and(max-width: 991px) {
         height: auto;
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 
@@ -634,4 +635,65 @@ a:hover {
 }
 .button {
     background: none;
+}
+
+.section_href {
+    color: $blue;
+    font-weight: 300;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 40px;
+    font-size: 16px;
+    &:hover{
+        color: $red;
+        text-decoration: underline;
+    }
+}
+
+.buy_img {
+    @media (min-width: 1440px) {
+        margin-top: 36px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1439px) {
+        margin-top: 36px;
+    }
+
+    @media (min-width: 320px) and(max-width: 991px) {
+        margin-top: 36px;
+    }
+
+}
+
+.Landing_bottom_hero_btn {
+    background-color: $blue-2;
+    border-radius: 11px;
+    height: 39px;
+    cursor: pointer;
+    width: 230px;
+
+    &:hover {
+        transform: scale(1.04);
+        transition: transform .3s;
+        //background-color: $grey-4;
+
+        .Landing_hero_btn_in {
+            //border-color: $grey-4;
+            width: 100%
+        }
+    }
+}
+
+.Landing_bottom_hero_btn_in {
+    border-radius: 11px;
+    height: 40px;
+    padding-top: 7px;
+    background-color: $blue;
+    border: 1px solid $blue-2;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0;
+    text-align: center;
+
 }
