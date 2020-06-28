@@ -4,6 +4,7 @@ $grey-3: #848080;
 $orange-1: #F7C358;
 $orange-2: #F0A202;
 $red: #AA4465;
+$red-2: #FE5D26;
 $green: #B9FFDD;
 $white: #CACACA;
 $blue: #7678ED;
@@ -49,6 +50,10 @@ a:hover {
     &:hover {
         color: $green;
     }
+}
+
+.active_green {
+    color: $green;
 }
 
 .h1 {
@@ -303,7 +308,8 @@ a:hover {
 .no_padding_no_margin {}
 
 .how_it_img {
-        margin-left: calc(50% - 165px);
+    margin-left: calc(50% - 165px);
+
     @media (min-width: 1440px) {
         padding-top: 66px;
         padding-top: 20px;
@@ -320,7 +326,7 @@ a:hover {
         padding-top: 26px;
         padding-top: 20px;
         max-width: 280px !important;
-         margin-left: calc(50% - 140px);
+        margin-left: calc(50% - 140px);
     }
 
 }
@@ -616,6 +622,7 @@ a:hover {
         opacity: 0.8;
     }
 }
+
 .play_triangle {
     position: absolute;
     top: 15px;
@@ -633,6 +640,7 @@ a:hover {
     letter-spacing: 0;
     text-align: center
 }
+
 .button {
     background: none;
 }
@@ -644,7 +652,8 @@ a:hover {
     font-style: italic;
     margin-top: 40px;
     font-size: 16px;
-    &:hover{
+
+    &:hover {
         color: $red;
         text-decoration: underline;
     }
@@ -696,4 +705,57 @@ a:hover {
     letter-spacing: 0;
     text-align: center;
 
+}
+
+.hiw_title {
+    font-family: OpenSans-Bold;
+    font-size: 39px;
+    color: $grey-1;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 44px;
+}
+
+.hiw_sub_title {
+    font-family: OpenSans-SemiBold;
+    font-size: 30px;
+    color: $grey-1;
+    text-align: center;
+    margin-top: 56px;
+}
+
+
+.hiw_p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: $grey-1;
+    letter-spacing: 0;
+    line-height: 29px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-top: 30px;
+    @media (min-width: 320px) and(max-width: 540px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    margin-top: 10px;
+    }
+}
+.hiw_b {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.hiw_img {
+    text-align: right;
+    margin-top: 20px;
+     @media (min-width: 320px) and(max-width: 540px) {
+         text-align: center;
+    }
+}
+
+.how_b_r {
+    font-size: 18px;
+    font-weight: 600;
+    color: $red-2;
 }

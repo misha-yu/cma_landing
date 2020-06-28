@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="102px" viewBox="0 0 122 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>hiw_10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="How-it-works" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-243.000000, -1760.000000)" fill-rule="nonzero">
+            <g id="hiw_10" transform="translate(243.000000, 1760.000000)">
+                <rect id="Rectangle-Copy-9" fill="#FFFFFF" opacity="0.00667317708" x="0" y="0" width="122" height="102"></rect>
+                <path d="M50.6439394,33.8551724 L50.6439394,47.8689655 L81.0715256,47.8689655 L81.0715256,33.8551724 L50.6439394,33.8551724 Z" id="Rectangle" stroke="#191919" stroke-width="2.4" transform="translate(65.857732, 40.862069) rotate(-45.000000) translate(-65.857732, -40.862069) "></path>
+                <path d="M74.513288,43.2417625 L74.513288,62.0831418 L80.8029432,62.0831418 L80.8029432,43.2417625 L74.513288,43.2417625 Z" id="Rectangle" stroke="#191919" stroke-width="2.4" transform="translate(77.658116, 52.662452) rotate(-45.000000) translate(-77.658116, -52.662452) "></path>
+                <rect id="Rectangle" stroke="#191919" stroke-width="2.4" x="40.1574468" y="71.226628" width="27.387234" height="6.6"></rect>
+                <path d="M33,62.2819472 L42.5319149,62.2819472" id="Path-6" stroke="#191919" stroke-width="2.4"></path>
+                <path d="M38.9574468,48.5798195 L46.106383,55.7287557" id="Path-7" stroke="#191919" stroke-width="2.4"></path>
+                <path d="M33,77.7713089 L75,77.7713089" id="Path-8" stroke="#191919" stroke-width="2.4"></path>
+            </g>
+        </g>
+    </g>
+</svg>
