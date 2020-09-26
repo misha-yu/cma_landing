@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ico_mail_lp</title>
+    <desc>Created with Sketch.</desc>
+    <g id="html-corrections" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-1-Copy-6" transform="translate(-599.000000, -424.000000)" fill-rule="nonzero">
+            <g id="ico_mail_lp" transform="translate(599.000000, 424.000000)">
+                <rect id="Rectangle-Copy-7" fill="#191919" opacity="0.011971" x="0" y="0" width="30" height="30"></rect>
+                <g id="iconmonstr-email-4" transform="translate(3.000000, 7.000000)" fill="#EFEBEB">
+                    <path d="M0,0 L0,18 L24,18 L24,0 L0,0 Z M21.518,2 L12,9.713 L2.482,2 L21.518,2 Z M2,16 L2,4.183 L12,12.287 L22,4.183 L22,16 L2,16 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
